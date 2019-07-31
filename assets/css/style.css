@@ -223,68 +223,61 @@ input[type=submit] {
 
 
 @media screen and (max-width: 980px) {
-  body {
-    background-color: #333;
+  #masthead {
+  width: 100%
   }
 
-  .wrapper {
-    /* Box-model */
-    width: 100%;
-    padding: 20px;
+  #subhead {
+    padding: 0 20px 0 0
   }
 
-  #main-content,
-  #sidebar {
-    width: 100%;
+  #main-container {
+   width: 70%;
+   justify-content: left;
+   position: relative;
+   font-size: 17px;
+   margin: 0 50px 20px 5px 
   }
 
-  #sidebar {
-    margin-top: 40px;
+  footer {
+width: 100%
   }
 }
 
-/* Additional Screen Sizes */
 
-/* Width at 320px and below */
 @media screen and (max-width: 768px) {
-  body {
-    background-color: #333;
+  #masthead {
+    width: 100%
   }
 
-  .wrapper {
-    /* Box-model */
-    width: 100%;
-    padding: 20px;
+  #subhead {
+    padding: 0 10px 0 0
   }
 
-  #main-content,
-  #sidebar {
-    width: 100%;
+  #cat {
+    width: 50%
   }
 
-  #sidebar {
-    margin-top: 40px;
+  #main-container {
+    margin: 5px 5px 50px 5px
   }
 }
 
-/* Width at 168px and below */
 @media screen and (max-width: 640px) {
-  body {
-    background-color: #333;
-  }
-
-  .wrapper {
-    /* Box-model */
+  #cat {
     width: 100%;
-    padding: 20px;
+    margin: 5px;
+    padding: 0 0 10px 0
   }
 
-  #main-content,
-  #sidebar {
+  #logo {
     width: 100%;
+
   }
 
-  #sidebar {
-    margin-top: 40px;
+  #subhead {
+    width: 100%;
+    text-align: center;
+    padding: 0 0 15px 0
+
   }
-}
