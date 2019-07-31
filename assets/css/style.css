@@ -224,7 +224,8 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
   #masthead {
-  width: 100%
+  width: 100%;
+  padding: 0 20px 0 0
   }
 
   #subhead {
@@ -242,12 +243,19 @@ input[type=submit] {
   footer {
 width: 100%
   }
+
+  .headC {
+    padding: 0 20px 0 20px
+  }
+
+ 
 }
 
 
 @media screen and (max-width: 768px) {
   #masthead {
-    width: 100%
+    width: 100%;
+    padding: 0 20px 0 0
   }
 
   #subhead {
@@ -259,7 +267,8 @@ width: 100%
   }
 
   #main-container {
-    margin: 5px 5px 50px 5px
+    margin: 5px 5px 50px 5px;
+    width: 100%
   }
 }
 
@@ -275,9 +284,21 @@ width: 100%
 
   }
 
-  #subhead {
+  .main-section {
+    margin: 50px 0 0 0
+  }
+
+ .subhead {
     width: 100%;
     text-align: center;
     padding: 0 0 15px 0
+  }
 
+  #main-container {
+    width: 100%;
+  }
+
+  .work {
+    justify-content: center;
+    width: 100%
   }
